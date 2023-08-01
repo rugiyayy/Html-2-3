@@ -1,0 +1,34 @@
+form{
+    width: 35%;
+}
+
+form> label{
+    width: 100%;
+    margin: 10px 6px;
+    font-size: large
+}
+form>input,textarea{
+    padding: 18px 10px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: medium;
+    margin: 10px 5px;
+}
+button{
+    width: 11%;
+    background-color: rgb(50,52,51);
+    color: white;
+    padding: 10px 3px;
+    border-radius: 6px;
+    margin: 6px 0px 0 8px ;
+    font-size: medium;
+}
+div{
+    margin:3% 0 0 35% ;
+}
+button:hover{
+    color: black;
+    background-color: rgb(149, 191, 191);
+    transition: 1s; 
+    font-weight: bolder;
+}
